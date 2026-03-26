@@ -1,0 +1,12 @@
+{
+    "Uname" : "standard_user",
+    "Password": "secret_sauce",
+    "WrongUN" : "standard_user111",
+    "WrongPSWD" : "secret_sauce1111", 
+    "Uname1" : "locked_out_user",
+    "Uname2" : "problem_user",
+    "Uname3" : "performance_glitch_user",
+    "Uname4" : "error_user",
+    "Uname5" : "visual_user"
+
+}

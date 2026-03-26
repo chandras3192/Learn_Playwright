@@ -1,0 +1,13 @@
+{
+    "username" : "hello",
+    "mail" : "hihello",
+    "pswd" : "12345",
+    "day" : "31",
+    "Month" : "JAN",
+    "Year" : "1992",
+    "Country" : "India",
+    "City" : "Bangalore",
+    "recovery_mail" : "abc@gmail.com",
+    "mobile" : "1234567890"
+
+}
