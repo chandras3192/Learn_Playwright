@@ -5,8 +5,8 @@ test('Login with valid credentials', async ({ page }) => {
   await page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login');
 
   //actions
-  await page.locator("//input[@placeholder='Username']").fill(data.Username)
-  await page.locator("//input[@placeholder='Password']").fill(data.Password)
+  await page.locator("//input[@placeholder='Username']").fill(process.env.APP_USER)
+  await page.locator("//input[@placeholder='Password']").fill(process.env.APP_PASSWORD)
   await page.locator("//button[@type='submit']").click()
 
   //assertions
